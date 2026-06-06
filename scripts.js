@@ -64,15 +64,5 @@ $(document).ready( function() {
     $(".content").eq(currentpage).addClass("selected");
     reloadpagination();
   })
-
-  //check date if today is 7/6/2026
-  var today = new Date(); 
-  var targetDate = new Date("2026-07-06");
-
-  if (today.getFullYear() === targetDate.getFullYear() &&
-      today.getMonth() === targetDate.getMonth() &&
-      today.getDate() === targetDate.getDate()) {
-    $("#4year").removeClass("hide");
-  }
 });
 

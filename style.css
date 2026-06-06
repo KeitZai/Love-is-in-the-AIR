@@ -160,9 +160,6 @@ button#btnclose {
   display: block;
 }
 
-.content.hide{
-  display: none !important;
-}
 
 .content {
   font-family: "ZCOOL KuaiLe", sans-serif;
