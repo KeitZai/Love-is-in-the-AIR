@@ -160,7 +160,7 @@ button#btnclose {
   display: block;
 }
 
-.content .hide{
+.content.hide{
   display: none !important;
 }
 
